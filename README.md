@@ -1,6 +1,6 @@
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Cappricio-Securities/CVE-2023-29489/main/images/CVE-2023-29489.png" alt="logo">
+  <img src="https://raw.githubusercontent.com/Cappricio-Securities/crlfi/main/image/CRLFI.png" alt="logo">
 </div>
 
 
@@ -36,17 +36,17 @@
 
    - Install via pip
      - ```bash
-          pip install CVE-2023-29489 
+          pip install crlfi
         ```
    - Run bellow command to check
-     - `CVE-2023-29489 -h`
+     - `crlfi -h`
 
 ## Configurations 
 2. We integrated with the Telegram API to receive instant notifications for vulnerability detection.
    
    - Telegram Notification
      - ```bash
-          CVE-2023-29489 --chatid <YourTelegramChatID>
+          crlfi --chatid <YourTelegramChatID>
         ```
    - Open your telegram and search for [`@CappricioSecuritiesTools_bot`](https://web.telegram.org/k/#@CappricioSecuritiesTools_bot) and click start
 
@@ -55,19 +55,19 @@
    
    - To Check Single URL
      - ```bash
-          CVE-2023-29489 -u http://example.com 
+          crlfi -u http://example.com 
         ```
    - To Check List of URL 
       - ```bash
-          CVE-2023-29489 -i urls.txt 
+          crlfi -i urls.txt 
         ```
    - Save output into TXT file
       - ```bash
-          CVE-2023-29489 -i urls.txt -o out.txt
+          crlfi -i urls.txt -o out.txt
         ```
-   - Want to Learn about [`CVE-2023-29489`](https://blogs.cappriciosec.com/cve/137/CVE-2023-29489)? Then Type Below command
+   - Want to Learn about [`crlfi`](https://blogs.cappriciosec.com/blog/138/Cappricio%20Securities%20Discovers%20CRLF%20Injection%20Vulnerability%20in%20Popular%20Website,%20Responsible%20Disclosure%20Earns%20Bounty)? Then Type Below command
       - ```bash
-          CVE-2023-29489 -b
+          crlfi -b
         ```
      
 <p align="center">
@@ -81,7 +81,7 @@
 
 ## Working PoC Video
 
-[![asciicast](https://blogs.cappriciosec.com/uploaders/cve1.png)](https://asciinema.org/a/xB30FPnwpUJiqiyVzY20OutOD)
+[![asciicast](https://blogs.cappriciosec.com/uploaders/Screenshot%202024-04-23%20at%202.32.40%20PM.png)](https://asciinema.org/a/CZVs5PpxP7cFBvNAeNurt5hxt)
 
 
 
@@ -92,31 +92,32 @@
 
 ```bash
 👋 Hey Hacker
-                                                                v1.0
-  ______   ______    ___  ___  ___  ____    ___ ___  ____ ___ ___ 
- / ___/ | / / __/___|_  |/ _ \|_  ||_  /___|_  / _ \/ / /( _ ) _ \
-/ /__ | |/ / _//___/ __// // / __/_/_ <___/ __/\_, /_  _/ _  \_, /
-\___/ |___/___/   /____/\___/____/____/  /____/___/ /_/ \___/___/    
+                                v1.0
+   __________  __    __________
+  / ____/ __ \/ /   / ____/  _/
+ / /   / /_/ / /   / /_   / /
+/ /___/ _, _/ /___/ __/ _/ /
+\____/_/ |_/_____/_/   /___/
 
-                                   Developed By https://cappriciosec.com
+                                Developed By https://cappriciosec.com
 
 
-CVE-2023-29489 : Bug scanner for WebPentesters and Bugbounty Hunters 
+crlfi : Bug scanner for WebPentesters and Bugbounty Hunters 
 
-$ CVE-2023-29489 [option]
+$ crlfi [option]
 
-Usage: CVE-2023-29489 [options]
+Usage: crlfi [options]
 ```
 
 
 | Argument | Type     | Description                | Examples |
 | :-------- | :------- | :------------------------- | :------------------------- |
-| `-u` | `--url` | URL to scan | CVE-2023-29489 -u https://target.com |
-| `-i` | `--input` | filename Read input from txt  | CVE-2023-29489 -i target.txt | 
-| `-o` | `--output` | filename Write output in txt file | CVE-2023-29489 -i target.txt -o output.txt |
-| `-c` | `--chatid` | Creating Telegram Notification | CVE-2023-29489 --chatid yourid |
-| `-b` | `--blog` | To Read about CVE-2023-29489 Bug | CVE-2023-29489 -b |
-| `-h` | `--help` | Help Menu | CVE-2023-29489 -h |
+| `-u` | `--url` | URL to scan | crlfi -u https://target.com |
+| `-i` | `--input` | filename Read input from txt  | crlfi -i target.txt | 
+| `-o` | `--output` | filename Write output in txt file | crlfi -i target.txt -o output.txt |
+| `-c` | `--chatid` | Creating Telegram Notification | crlfi --chatid yourid |
+| `-b` | `--blog` | To Read about crlfi Bug | crlfi -b |
+| `-h` | `--help` | Help Menu | crlfi -h |
 
 
 
@@ -129,7 +130,7 @@ Usage: CVE-2023-29489 [options]
 
 ## Author
 
-- [@karthithehacker](https://github.com/karthi-the-hacker/)
+- [@karthithehacker](https://github.com/cappricio-securities/)
 
 
 
