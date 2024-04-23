@@ -81,7 +81,7 @@
 
 ## Working PoC Video
 
-[![asciicast](https://blogs.cappriciosec.com/uploaders/Screenshot%202024-04-23%20at%202.32.40%20PM.png)](https://asciinema.org/a/CZVs5PpxP7cFBvNAeNurt5hxt)
+[![asciicast](https://blogs.cappriciosec.com/uploaders/Screenshot%202024-04-23%20at%203.45.51%20PM.png)](https://asciinema.org/a/aqBLIxq5XfyWH7hiHPNouCcKZ)
 
 
 
