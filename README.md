@@ -130,7 +130,7 @@ Usage: crlfi [options]
 
 ## Author
 
-- [@cappriciosec](https://github.com/cappricio-securities/)
+- [@karthithehacker](https://github.com/karthi-the-hacker/)
 
 
 
