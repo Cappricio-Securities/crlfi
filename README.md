@@ -1,6 +1,6 @@
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Cappricio-Securities/crlfi/main/image/CRLFI.png" alt="logo">
+  <img src="https://blogs.cappriciosec.com/uploaders/tools-banner.png" alt="logo">
 </div>
 
 
