@@ -16,7 +16,7 @@ setup(
     long_description_content_type="text/markdown",
     entry_points={
         'console_scripts': [
-            'crlfi = cve.main:main',
+            'crlfi = crlfi.main:main',
         ],
     },
     install_requires=['urllib3', 'requests', 'click'],
