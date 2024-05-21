@@ -46,7 +46,7 @@ def cvescan(url, output):
                         if output is not None:
                                 writefile.writedata(
                                     output, str(f'{fullurl}\n'))
-                        break
+                        break 
                 except requests.exceptions.RequestException as e:
                     print(
                         f'{const.Colors.MAGENTA}Invalid Domain ->{const.Colors.BLUE}${const.Colors.RESET} {fullurl}: {e}')
